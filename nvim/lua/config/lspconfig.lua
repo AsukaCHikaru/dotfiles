@@ -5,7 +5,7 @@ nvim_lsp.tsserver.setup({
     local opts = { noremap = true, silent = true }
 
     -- keymaps
-    -- vim.api.nvim_buf_set_keymap(buffer, "n", "gi", "<Cmd>lua vim.lsp.buf.hover()<CR>", opts)
+    -- vim.api.nvim_buf_set_keymap(buffer, "n", "gI", "<Cmd>lua vim.lsp.buf.implementation()<CR>", opts)
     -- vim.api.nvim_buf_set_keymap(buffer, "n", "gr", "<Cmd>lua vim.lsp.buf.references()<CR>", opts)
     -- vim.api.nvim_buf_set_keymap(buffer, "n", "gD", "<Cmd>lua vim.lsp.buf.type_definition()<CR>", opts)
     -- vim.cmd([[ command! Format excute 'lua vim.lsp.buf.formatting()' ]])
