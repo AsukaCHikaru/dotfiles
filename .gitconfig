@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	st = status
+	cmt = commit
+	br = branch
+  cp = cherry-pick
+[user]
+	email = asukachikaru@gmail.com
+	name = asukachikaru
