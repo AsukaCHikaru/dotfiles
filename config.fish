@@ -4,7 +4,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set -x PATH node_modules/.bin $PATH
+set -x PATH node_modules/.bin /opt/homebrew/bin $PATH
 
 function nvm
     bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
@@ -17,4 +17,3 @@ function __check_nvm --on-variable PWD --description 'Do nvm stuff'
 end
 
 __check_nvm
-
