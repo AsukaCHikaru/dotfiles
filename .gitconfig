@@ -5,5 +5,7 @@
 	br = branch
   cp = cherry-pick
 [user]
-	email = asukachikaru@gmail.com
+	email = asuka@asukawang.com
 	name = asukachikaru
+[push]
+	autoSetupRemote = true
