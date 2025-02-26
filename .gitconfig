@@ -9,3 +9,7 @@
 	name = asukachikaru
 [push]
 	autoSetupRemote = true
+[branch]
+  sort = -committerdate
+[tag]
+  sort = version:refname
